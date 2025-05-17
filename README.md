@@ -72,9 +72,11 @@ python scripts/train_model.py
 uvicorn main:app --reload
 ```
 
-Access it at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+Access the API at:
 
-Swagger Docs available at [docs](http://127.0.0.1:8000/docs)
+- [http://127.0.0.1:8000](http://127.0.0.1:8000) (API)
+- [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) (Interactive Docs)
+- [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) (Alternative Docs)
 
 ## 📮 API Endpoints
 
