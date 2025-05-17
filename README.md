@@ -104,9 +104,9 @@ This runs the container in detached mode (`-d`) and maps port 8000 on your local
 
 Easily deploy the House Price Prediction API to popular cloud platforms with just a few clicks! Select one of the following deployment options:
 
-[<img alt="Deploy to Heroku" src="https://www.herokucdn.com/deploy/button.svg" width="180" title="Deploy to Heroku">](https://heroku.com/deploy?template=https://github.com/yourusername/house-price-api)
-[<img alt="Deploy on Railway" src="https://railway.app/button.svg" width="180" title="Deploy on Railway">](https://railway.app/new/template?template=https://github.com/yourusername/house-price-api)
-[<img alt="Deploy to Render" src="https://render.com/images/deploy-to-render-button.svg" width="180" title="Deploy to Render">](https://render.com/deploy?repo=https://github.com/yourusername/house-price-api)
+[![Deploy to Heroku](https://img.shields.io/badge/Deploy_to-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/yourusername/house-price-api)
+[![Deploy on Railway](https://img.shields.io/badge/Deploy_to-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/yourusername/house-price-api)
+[![Deploy to Render](https://img.shields.io/badge/Deploy_to-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy?repo=https://github.com/yourusername/house-price-api)
 
 ## 📮 API Endpoints
 
