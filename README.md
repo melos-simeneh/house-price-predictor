@@ -19,6 +19,21 @@ This is a RESTful API built using **FastAPI** that predicts house prices based o
 - Rate limiting & custom error handling
 - Loads pre-trained model at startup
 
+## 🧩 Project Structure
+
+```css
+house-price-predictor
+ ├── controllers/ 
+ ├── data/ 
+ ├── lib/ 
+ ├── routes/ 
+ ├── schemas/ 
+ ├── scripts/ 
+ ├── main.py
+ └── requirements.txt
+
+```
+
 ## 🧠 Model Details
 
 A `LinearRegression` model from `scikit-learn` is trained using synthetic data and saved as a pickle file. Input features for the model:
@@ -103,21 +118,6 @@ POST /api/predict
   "currency": "USD",
   "predicted_price": "$452,000.00"
 }
-```
-
-## 🧩 Project Structure
-
-```css
-house-price-predictor
- ├── controllers/ 
- ├── data/ 
- ├── lib/ 
- ├── routes/ 
- ├── schemas/ 
- ├── scripts/ 
- └── main.py
- └── requirements.txt
-
 ```
 
 ## 🛡️ Error Handling
