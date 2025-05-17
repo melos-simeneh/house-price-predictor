@@ -168,4 +168,5 @@ The `/predict` endpoint is rate-limited using middleware in `lib/rate_limiter.py
 
 Made with 💚 by **MELOS**
 
-For questions or suggestions, open an issue or contact [melos.simeneh@gmail.com](melos.simeneh@gmail.com).
+For questions or suggestions, open an issue or contact [melos.simeneh@gmail.com](mailto:melos.simeneh@gmail.com).
+.
