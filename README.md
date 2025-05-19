@@ -48,8 +48,8 @@ A `LinearRegression` model from `scikit-learn` is trained using synthetic data a
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/melos-simeneh/house-price-api.git
-cd house-price-api
+git clone https://github.com/melos-simeneh/house-price-predictor.git
+cd house-price-predictor
 ```
 
 ### 2. Install Dependencies
@@ -87,15 +87,15 @@ You can containerize and run the API using Docker.
 **1. Build the Docker image:**
 
 ```bash
-docker build -t house-price-api .
+docker build -t house-price-predictor .
 ```
 
-This will build the Docker image and tag it as house-price-api.
+This will build the Docker image and tag it as house-price-predictor.
 
 **2. Run the container:**
 
 ```bash
-docker run -d -p 8000:8000 house-price-api
+docker run -d -p 8000:8000 house-price-predictor
 ```
 
 This runs the container in detached mode (`-d`) and maps port 8000 on your local machine to port 8000 inside the container. The API will be accessible at [http://localhost:8000](http://localhost:8000).
@@ -104,9 +104,9 @@ This runs the container in detached mode (`-d`) and maps port 8000 on your local
 
 Easily deploy the House Price Prediction API to popular cloud platforms with just a few clicks! Select one of the following deployment options:
 
-[![Deploy to Heroku](https://img.shields.io/badge/Deploy_to-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/yourusername/house-price-api)
-[![Deploy on Railway](https://img.shields.io/badge/Deploy_to-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/yourusername/house-price-api)
-[![Deploy to Render](https://img.shields.io/badge/Deploy_to-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy?repo=https://github.com/yourusername/house-price-api)
+[![Deploy to Heroku](https://img.shields.io/badge/Deploy_to-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/melos-simeneh/house-price-predictor)
+[![Deploy on Railway](https://img.shields.io/badge/Deploy_to-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/melos-simeneh/house-price-predictor)
+[![Deploy to Render](https://img.shields.io/badge/Deploy_to-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy?repo=https://github.com/melos-simeneh/house-price-predictor)
 
 ## 📮 API Endpoints
 
